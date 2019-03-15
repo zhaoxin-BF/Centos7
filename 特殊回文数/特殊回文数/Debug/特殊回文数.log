@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/2/28 16:49:54。
+     1>项目“C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\2019学习代码\蓝桥杯\特殊回文数\特殊回文数\特殊回文数.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "特殊回文数.cpp"
+         特殊回文数.cpp
+     1>c:\users\赵鑫5201314\documents\visual studio 2013\projects\2019学习代码\蓝桥杯\特殊回文数\特殊回文数\特殊回文数.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\赵鑫5201314\documents\visual studio 2013\projects\2019学习代码\蓝桥杯\特殊回文数\特殊回文数\特殊回文数.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\2019学习代码\蓝桥杯\特殊回文数\Debug\特殊回文数.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\2019学习代码\蓝桥杯\特殊回文数\Debug\特殊回文数.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\2019学习代码\蓝桥杯\特殊回文数\Debug\特殊回文数.lib" /MACHINE:X86 "Debug\特殊回文数.obj"
+         特殊回文数.vcxproj -> C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\2019学习代码\蓝桥杯\特殊回文数\Debug\特殊回文数.exe
+     1>已完成生成项目“C:\Users\赵鑫5201314\Documents\Visual Studio 2013\Projects\2019学习代码\蓝桥杯\特殊回文数\特殊回文数\特殊回文数.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.62
