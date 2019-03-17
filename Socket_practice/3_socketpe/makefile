@@ -1,5 +1,5 @@
-.PHONY:seriserver
-seriserver:server.cc
+.PHONY:server
+server:server.cc
 	g++ -o $@ $^
 .PHONY:client
 client:client.cc
