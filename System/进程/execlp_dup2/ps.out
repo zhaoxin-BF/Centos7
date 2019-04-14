@@ -1,0 +1,66 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:00 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:00 [ksoftirqd/0]
+    5 ?        S<     0:00 [kworker/0:0H]
+    6 ?        S      0:00 [kworker/u2:0]
+    7 ?        S      0:00 [migration/0]
+    8 ?        S      0:00 [rcu_bh]
+    9 ?        R      0:00 [rcu_sched]
+   10 ?        S      0:00 [watchdog/0]
+   12 ?        S      0:00 [kdevtmpfs]
+   13 ?        S<     0:00 [netns]
+   14 ?        S      0:00 [khungtaskd]
+   15 ?        S<     0:00 [writeback]
+   16 ?        S<     0:00 [kintegrityd]
+   17 ?        S<     0:00 [bioset]
+   18 ?        S<     0:00 [kblockd]
+   19 ?        S<     0:00 [md]
+   25 ?        S      0:00 [kswapd0]
+   26 ?        SN     0:00 [ksmd]
+   27 ?        SN     0:00 [khugepaged]
+   28 ?        S      0:00 [fsnotify_mark]
+   29 ?        S<     0:00 [crypto]
+   37 ?        S<     0:00 [kthrotld]
+   39 ?        S<     0:00 [kmpath_rdacd]
+   40 ?        S<     0:00 [kpsmoused]
+   41 ?        S<     0:00 [ipv6_addrconf]
+   60 ?        S<     0:00 [deferwq]
+  105 ?        S      0:00 [kauditd]
+  215 ?        S      0:00 [kworker/u2:2]
+  218 ?        S<     0:00 [ata_sff]
+  236 ?        S      0:00 [scsi_eh_0]
+  237 ?        S<     0:00 [scsi_tmf_0]
+  238 ?        S      0:00 [scsi_eh_1]
+  239 ?        S<     0:00 [scsi_tmf_1]
+  241 ?        S<     0:00 [ttm_swap]
+  253 ?        S<     0:00 [kworker/0:1H]
+  258 ?        S      0:00 [jbd2/vda1-8]
+  259 ?        S<     0:00 [ext4-rsv-conver]
+  326 ?        Ss     0:00 /usr/lib/systemd/systemd-journald
+  344 ?        Ss     0:00 /usr/lib/systemd/systemd-udevd
+  368 ?        S      0:00 [vballoon]
+  419 ?        S<sl   0:00 /sbin/auditd -n
+  437 ?        Ss     0:00 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  442 ?        Ss     0:00 /usr/lib/systemd/systemd-logind
+  446 ?        Ssl    0:00 /usr/lib/polkit-1/polkitd --no-debug
+  451 ?        Ss     0:00 /usr/sbin/crond -n
+  455 ?        Ss     0:00 /usr/sbin/atd -f
+  485 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+  486 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+  679 ?        Ss     0:00 /sbin/dhclient -H AliCloud -1 -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid eth0
+  738 ?        Ssl    0:00 /usr/bin/python -Es /usr/sbin/tuned -l -P
+  744 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
+  761 ?        Ss     0:00 /usr/sbin/ntpd -u ntp:ntp -g
+  803 ?        Ssl    0:01 /usr/local/aegis/aegis_update/AliYunDunUpdate
+  941 ?        Ss     0:00 /bin/sh /usr/bin/mysqld_safe --basedir=/usr
+ 1414 ?        S<sl   0:20 /usr/local/aegis/aegis_client/aegis_10_63/AliYunDun
+ 1489 ?        Sl     0:02 /usr/libexec/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --log-error=/var/log/mariadb/mariadb.log --pid-file=/var/run/mariadb/mariadb.pid --socket=/var/lib/mysql/mysql.sock
+ 2318 ?        Ss     0:00 /usr/sbin/sshd -D
+ 2360 ?        Ss     0:00 sshd: root@pts/0,pts/1
+ 2374 pts/0    Ss+    0:00 -bash
+ 2437 ?        Ssl    0:00 /usr/sbin/aliyun-service
+ 2462 ?        S      0:02 [kworker/0:0]
+ 2860 ?        S      0:00 [kworker/0:1]
+ 2879 pts/1    Ss     0:00 -bash
+ 2969 pts/1    R+     0:00 ps ax
