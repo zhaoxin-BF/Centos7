@@ -1,0 +1,16 @@
+obj=main.o
+target=app
+$(target):$(obj)
+	gcc $(obj) -o $(target)
+
+%.o:%.c
+	gcc -c $< -o $@
+
+#makefile 中自己维护的变量
+#CC = cc
+
+#makefile中的自动变量
+#$<: 规则中的第一个依赖
+#$@：规则中的目标
+#$^: 规则中的所有依赖
+#只能在规则的命令中使用
