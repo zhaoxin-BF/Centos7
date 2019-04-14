@@ -14,14 +14,19 @@ int main(void)
         printf("parent\n");   
     } else {
         
+        //一般来说调用系统可执行程序，例如ls等
         //execlp("./test","test",NULL);
+        execlp("ls","ls","-l","-a",NULL);
 
+        //一般来说调用用户自定义可执行程序
         //execl("/bin/ls","ls","-l","-a",NULL);
 
         //execl("./test","test",NULL);
 
+        /*
         char *argv[] = {"ls","-l",NULL};
         execv("/bin/ls",argv); 
+        */
     }
     return 0;
 }
