@@ -15,6 +15,7 @@ int position(int* arr, int left, int right)
     {
         while(left < right && arr[right] >= mid) right--;
             arr[left] = arr[right];
+
         while(left < right && arr[left] <= mid) left++;
             arr[right] = arr[left];
     }
