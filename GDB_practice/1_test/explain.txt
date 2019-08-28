@@ -1,0 +1,14 @@
+1、在程序编译的时候 必须要带上 -g,否则将会没办进行gdb调试 (eg:gcc -o test test.c -g)
+2、gdb常用操作：
+    gdb -p      :打开gdb，不输出多余的不想关信息
+    file test   :打开需要进行调试的文件
+
+    break n     :打断点
+    info breakpoints  :查看断点信息(主要是断点个数和其在哪个位置(哪行？))
+    clear       :清楚全部断点
+    clear n     :清楚行的断点
+
+    run or r    :调试运行(一行一行运行)
+    b functon   :定位到某个函数
+    print       ：打印变量的值
+    l n         :向下显示代码（大概一次10行左右，n表示为定位到n行附近10 位置）
