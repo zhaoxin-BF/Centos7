@@ -16,9 +16,7 @@ libmysqlclient_r.so.18  libmysqlclient.so           libmysqlclient.so.18.1.0  li
 ## 5、配置好MySQL C API 文件后，在使用mysql.h时 ，这样包含#include <mysql/mysql.h> 
 	因为在/user/include/目下没有直接的mysql.h 他是在mysql/mysql.h
 
-# 6、使用MySQL C API 用例
-
-## 使用 MySQL C API 操作数据库 
+# 二、使用MySQL C API 用例
 ## 插入数据库 
 
 ```C++
