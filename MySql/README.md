@@ -21,7 +21,7 @@ libmysqlclient_r.so.18  libmysqlclient.so           libmysqlclient.so.18.1.0  li
 ## 使用 MySQL C API 操作数据库 
 ## 插入数据库 
 
-```
+```C++
 /////////////////////////////////////////////////////// 
 // 编译选项 
 // -L /usr/lib64/mysql -lmysqlclient 
@@ -69,7 +69,7 @@ return 0;
 } 
 ```
 ## 查找数据库 
-```
+```C++
 mysql_select.cc 
 /////////////////////////////////////////////////////// 
 // 编译选项 
