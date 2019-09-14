@@ -1,26 +1,27 @@
-#一、MySQL C API  安装(通过yum进行安装，不要用手动安装费时费力，投入产出比不行)
+# 一、MySQL C API  安装(通过yum进行安装，不要用手动安装费时费力，投入产出比不行)
 
-##1、查看需要安装的包
+## 1、查看需要安装的包
 	#yum list | grep mysql
 	
-##2、安装下面这个编程工具包
+## 2、安装下面这个编程工具包
 	#yum install mysql++-devel.x86_64                       3.1.0-12.el7           @epel 
 	
-##3、安装好后在# cd /usr/include/mysql目录下，会有一个mysql文件夹，里面包含了mysql C API .h文件
+## 3、安装好后在# cd /usr/include/mysql目录下，会有一个mysql文件夹，里面包含了mysql C API .h文件
 
      在# cd /usr/lib64/mysql 目录下，会有mysql客户端的相关文件
 libmysqlclient.a        libmysqlclient_r.so.18.1.0  libmysqlclient.so.18      libmysqlclient.so.20       libmysqlservices.a  plugin
 libmysqlclient_r.so.18  libmysqlclient.so           libmysqlclient.so.18.1.0  libmysqlclient.so.20.3.14  mecab
 ##4、如何使用得查看MySQL API 文档。
 
-##5、配置好MySQL C API 文件后，在使用mysql.h时 ，这样包含#include <mysql/mysql.h> 
+## 5、配置好MySQL C API 文件后，在使用mysql.h时 ，这样包含#include <mysql/mysql.h> 
 	因为在/user/include/目下没有直接的mysql.h 他是在mysql/mysql.h
 
-#6、使用MySQL C API 用例
+# 6、使用MySQL C API 用例
 
-##使用 MySQL C API 操作数据库 
-##插入数据库 
+## 使用 MySQL C API 操作数据库 
+## 插入数据库 
 
+```
 /////////////////////////////////////////////////////// 
 // 编译选项 
 // -L /usr/lib64/mysql -lmysqlclient 
@@ -66,7 +67,9 @@ mysql_close(connect_fd);
 printf("执行成功!\n"); 
 return 0; 
 } 
-查找数据库 
+```
+## 查找数据库 
+```
 mysql_select.cc 
 /////////////////////////////////////////////////////// 
 // 编译选项 
@@ -129,3 +132,4 @@ mysql_close(connect_fd);
 printf("执行成功!\n"); 
 return 0; 
 }
+```
