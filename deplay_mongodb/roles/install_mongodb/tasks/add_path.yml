@@ -1,0 +1,4 @@
+- name: add path
+  shell: echo "export PATH=/root/mongodb_install_file/mongodb/bin:$PATH" >> /root/.bashrc
+- name: source .bashrc
+  shell: source /root/.bashrc

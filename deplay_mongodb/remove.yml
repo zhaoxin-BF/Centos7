@@ -1,0 +1,7 @@
+--- 
+- hosts: abs
+  remote_user: root
+
+  tasks:
+    - name: remove mongodb
+      shell: rm -rf /root/mongodb_install_file

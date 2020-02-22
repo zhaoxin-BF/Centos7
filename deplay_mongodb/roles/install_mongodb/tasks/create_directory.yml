@@ -1,0 +1,7 @@
+- name: create directory
+  file: path=/root/mongodb_install_file/{{ item }} state=directory
+  with_items:
+    - data
+    - log
+    - run
+    - conf

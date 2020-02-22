@@ -1,0 +1,4 @@
+- name: tar mongodb_zip
+  shell: tar -zxvf mongodb.tgz
+- name: mv mongodb-liunux
+  shell: mv mongodb /root/mongodb_install_file

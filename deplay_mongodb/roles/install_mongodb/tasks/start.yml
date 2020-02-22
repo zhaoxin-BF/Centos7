@@ -1,0 +1,2 @@
+- name: start service
+  shell: mongod -f /root/mongodb_install_file/conf/mongod.conf

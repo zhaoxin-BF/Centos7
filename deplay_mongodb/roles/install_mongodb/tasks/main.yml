@@ -1,0 +1,5 @@
+- include: create_directory.yml
+- include: tar_mongodb_zip.yml
+- include: templ.yml
+- include: add_path.yml
+- include: start.yml

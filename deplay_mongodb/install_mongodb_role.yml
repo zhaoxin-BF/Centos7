@@ -1,0 +1,4 @@
+- hosts: abs
+  remote_user: root
+  roles:
+    - role: install_mongodb

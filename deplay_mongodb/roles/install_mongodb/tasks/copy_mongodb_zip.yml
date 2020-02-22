@@ -1,0 +1,10 @@
+---
+- hosts: abs
+  remote_user: root
+
+  tasks:
+  - name: Extract mongodb.tgz
+    unarchive:
+      copy: yes
+      src: ../files/mongodb.tgz
+      dest: /root

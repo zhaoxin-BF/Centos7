@@ -1,0 +1,7 @@
+---
+- hosts: abs
+  remote_user: root
+
+  tasks:
+    - name: set replSet
+      shell: 
